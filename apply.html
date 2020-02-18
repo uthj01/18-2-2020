@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>apply</title>
+</head>
+<body>
+
+</body>
+<script>
+		var obj={
+		'n1':10
+	}
+	function findsum(n2,n3){
+		console.log(this.n1+n2+n3);
+	}
+	findsum.apply(obj,[20,30]);
+</script>
+</html>
